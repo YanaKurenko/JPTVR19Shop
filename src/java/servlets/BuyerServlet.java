@@ -30,13 +30,7 @@ import session.UserRolesFacade;
  *
  * @author kasutaja
  */
-@WebServlet(name = "MyServlet", urlPatterns = {
-    "/addProduct",
-    "/createProduct",
-    "/addBuyer",
-    "/createBuyer",
-    "/listProducts",
-    "/listBuyers",
+@WebServlet(name = "BuyerServlet", urlPatterns = {
     "/takeOnProductForm",
     "/takeOnProduct",
 

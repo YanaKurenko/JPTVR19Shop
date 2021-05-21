@@ -28,8 +28,9 @@ import session.UserRolesFacade;
  */
 
 @WebServlet(name = "ManagerServlet", urlPatterns = {
+    
      "/addProduct",
-    "/createBook",
+    "/createProduct",
     
 
 })

@@ -23,7 +23,6 @@ public class Buyer implements Serializable{
     private Long id;
     private String firstname;
     private String lastname;
-     @Column(unique = true)
     private String purse;
 
     public Buyer() {
